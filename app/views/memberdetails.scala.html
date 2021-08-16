@@ -1,0 +1,58 @@
+@(id1:Int, id2:Int, id3:Int, id4:Int, regno1:String, regno2:String, regno3:String, regno4:String,
+u1:String,u2:String,u3:String,u4:String,telno1:Int, telno2:Int, telno3:Int, telno4:Int)
+
+<html lang="en">
+<head>
+  <title>Member Details</title>
+  <style>
+    table,th,tb{
+      border:1px solid black;
+      border-collapse:collapse;
+    }
+    th,td{padding:10px;}
+    tr:nth-child(odd){background-color: #00e000;}
+    th{background-color: #006100;}
+  </style>
+</head>
+<Body>
+<center>
+  <br><br>
+  <font color="#006400">
+    <h1>Group-18_Member Details</h1>
+    <br><br><br><br></font>
+  <table border = "1" bodercolor="#006400">
+    <tr height="40">
+      <th width="110">Index No</th>
+      <th width="140">Register No</th>
+      <th width="210">Student Name</th>
+      <th width="140">Telephone No</th>
+    </tr>
+    <tr height="40">
+      <td>@id1</td>
+      <td>@regno1</td>
+      <td>@u1</td>
+      <td>@telno1</td>
+    </tr>
+    <tr height="40">
+      <td>@id2</td>
+      <td>@regno2</td>
+      <td>@u2</td>
+      <td>@telno2</td>
+    </tr>
+    <tr height="40">
+      <td>@id3</td>
+      <td>@regno3</td>
+      <td>@u3</td>
+      <td>@telno3</td>
+    </tr>
+    <tr height="40">
+      <td>@id4</td>
+      <td>@regno4</td>
+      <td>@u4</td>
+      <td>@telno4</td>
+    </tr>
+  </table>
+</center>
+</Body>
+</html>
+
